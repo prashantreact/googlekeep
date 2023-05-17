@@ -13,7 +13,7 @@ const App = () => {
   });
   const handleAdd = (item) => {
     if (!note.content && !note.title) {
-      alert("fill the data");
+      alert("Warning! Fill the input Data");
     } else {
       setAddItems((oldData) => {
         return [...oldData, item];
